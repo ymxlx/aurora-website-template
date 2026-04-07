@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aurora Studio | Motion-Driven Web Design</title>
+    <meta
+      name="description"
+      content="Aurora Studio designs modern marketing websites with striking visuals, confident typography, and motion that feels alive."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Syne:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="pageTransition" aria-hidden="true"></div>
+    <div class="page-noise" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <nav class="navbar">
+        <a class="brand" href="#top">Aurora<span>.</span></a>
+        <div class="nav-links">
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a class="btn btn-ghost btn-small magnetic" data-strength="30" href="./start.html">Book a call</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="hero-copy" data-animate="up">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            Boutique digital studio
+          </div>
+          <h1>Beautiful websites with <em class="h1-accent">bold rhythm</em>, sharp storytelling, and motion that pulls people in.</h1>
+          <p class="hero-text">
+            We craft premium landing pages and brand experiences that feel editorial, modern, and unmistakably alive across desktop and mobile.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary magnetic" data-strength="22" href="#work">See the work</a>
+            <a class="btn btn-secondary magnetic" data-strength="18" href="#services">Explore services</a>
+          </div>
+          <ul class="hero-metrics" aria-label="Studio highlights">
+            <li>
+              <strong>12</strong>
+              <span>launches shaped this year</span>
+            </li>
+            <li>
+              <strong>4 wk</strong>
+              <span>average concept-to-build sprint</span>
+            </li>
+            <li>
+              <strong>98%</strong>
+              <span>clients returning for phase two</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-scene" data-animate="zoom">
+          <div class="scene-halo scene-halo-one"></div>
+          <div class="scene-halo scene-halo-two"></div>
+
+          <article class="showcase-card showcase-card-primary tilt-card">
+            <div class="card-topline">
+              <span>Launch system</span>
+              <span>2026</span>
+            </div>
+            <h2>Modern visuals built to feel tactile, clear, and cinematic.</h2>
+            <p>
+              Modular sections, animated depth layers, and conversion-focused storytelling without the template feel.
+            </p>
+            <div class="chart-row">
+              <div class="chart-bar chart-bar-tall"></div>
+              <div class="chart-bar chart-bar-mid"></div>
+              <div class="chart-bar chart-bar-short"></div>
+              <div class="chart-bar chart-bar-rise"></div>
+            </div>
+          </article>
+
+          <article class="floating-note floating-note-left tilt-card">
+            <span class="note-label">Motion system</span>
+            <p>Layered reveals, responsive hover states, and ambient parallax that stay smooth.</p>
+          </article>
+
+          <article class="floating-note floating-note-right tilt-card">
+            <span class="note-label">Visual language</span>
+            <p>Editorial type, warm neutrals, deep contrast, and energetic accent gradients.</p>
+          </article>
+
+          <div class="orbit-ring orbit-ring-one"></div>
+          <div class="orbit-ring orbit-ring-two"></div>
+        </div>
+      </section>
+
+      <section class="logo-marquee" aria-label="Selected clients" data-animate="fade">
+        <div class="marquee-track">
+          <span>Northstar</span>
+          <span>Helio Labs</span>
+          <span>Verdant</span>
+          <span>MonoHaus</span>
+          <span>Alt Form</span>
+          <span>Nova Systems</span>
+          <span>Northstar</span>
+          <span>Helio Labs</span>
+          <span>Verdant</span>
+          <span>MonoHaus</span>
+          <span>Alt Form</span>
+          <span>Nova Systems</span>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="section-copy" data-animate="up">
+          <p class="section-kicker">What we build</p>
+          <h2>Everything needed for a website that looks premium before anyone reads a word.</h2>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card service-card-featured" data-animate="up">
+            <p class="service-index">01</p>
+            <h3>Art direction that gives the site a point of view.</h3>
+            <p>
+              We shape the color system, hierarchy, visual texture, and layout behavior so the brand feels designed, not assembled.
+            </p>
+            <ul>
+              <li>Creative direction and mood framing</li>
+              <li>Component system and page rhythm</li>
+              <li>Mobile-first visual refinement</li>
+            </ul>
+          </article>
+
+          <article class="service-card" data-animate="up" data-delay="120">
+            <p class="service-index">02</p>
+            <h3>Motion design that adds energy without slowing the experience.</h3>
+            <p>Reveal choreography, magnetic interactions, parallax layers, and scroll moments with restraint.</p>
+          </article>
+
+          <article class="service-card" data-animate="up" data-delay="220">
+            <p class="service-index">03</p>
+            <h3>Messaging layouts tuned for conversion and clarity.</h3>
+            <p>Landing pages that balance personality with structure so people know what matters immediately.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="work" id="work">
+        <div class="section-copy" data-animate="up">
+          <p class="section-kicker">Selected work</p>
+          <h2>Designed to look sharp in a screenshot and even better in motion.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-card-sunrise tilt-card" data-animate="up">
+            <div class="project-visual">
+              <div class="project-window">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="project-lines"></div>
+            </div>
+            <div class="project-copy">
+              <p class="project-tag">Launch page / Fintech</p>
+              <h3>Editorial panels, animated metrics, and a calmer premium palette.</h3>
+              <p>Built to lead with trust while still feeling fresh and high-end.</p>
+            </div>
+          </article>
+
+          <article class="project-card project-card-night tilt-card" data-animate="up" data-delay="160">
+            <div class="project-visual">
+              <div class="project-orb"></div>
+              <div class="project-panel"></div>
+            </div>
+            <div class="project-copy">
+              <p class="project-tag">Campaign site / AI tooling</p>
+              <h3>Fast-moving gradients, immersive section transitions, and tighter CTA flow.</h3>
+              <p>Created to feel expressive on first visit while staying clean under pressure.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="process" id="process">
+        <div class="section-copy" data-animate="up">
+          <p class="section-kicker">Process</p>
+          <h2>A focused sprint from visual territory to launch-ready frontend.</h2>
+        </div>
+
+        <div class="process-list">
+          <article class="process-step" data-animate="up">
+            <span class="process-number">A</span>
+            <h3>Define the visual voice</h3>
+            <p>We map what the experience should feel like before choosing what it should look like.</p>
+          </article>
+          <article class="process-step" data-animate="up" data-delay="120">
+            <span class="process-number">B</span>
+            <h3>Build motion into the structure</h3>
+            <p>Animations are designed with the layout so they feel native instead of bolted on.</p>
+          </article>
+          <article class="process-step" data-animate="up" data-delay="220">
+            <span class="process-number">C</span>
+            <h3>Refine for clarity and speed</h3>
+            <p>We tune spacing, pacing, and responsiveness so the final UI stays elegant in real use.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="stats-band">
+        <article class="stat-card" data-animate="up">
+          <strong data-count="34">0</strong>
+          <span>interactive sections prototyped</span>
+        </article>
+        <article class="stat-card" data-animate="up" data-delay="100">
+          <strong data-count="17">0</strong>
+          <span>brand systems translated into UI</span>
+        </article>
+        <article class="stat-card" data-animate="up" data-delay="200">
+          <strong data-count="99">0</strong>
+          <span>percent Lighthouse performance target</span>
+        </article>
+      </section>
+
+      <section class="contact-cta" id="contact" data-animate="zoom">
+        <div class="cta-panel">
+          <p class="section-kicker">Let’s make it memorable</p>
+          <h2>Need the site to feel more modern, premium, and alive? That’s exactly the brief.</h2>
+          <p>
+            Aurora combines art direction, frontend polish, and creative animation into one cohesive website experience.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary magnetic" data-strength="20" href="./start.html">Start the project</a>
+            <a class="btn btn-secondary magnetic" data-strength="16" href="#top">Back to top</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#top">Aurora<span>.</span></a>
+      <p>Web experiences designed to leave a stronger first impression.</p>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
