@@ -8,6 +8,7 @@ A boutique agency website template built with warm editorial aesthetics, confide
 
 | Home | Start a Project |
 |---|---|
+| ![Home — hero with parallax scene, tilt cards, animated stats](assets/preview-home.jpg) | ![Start a Project — 4-step intake form with animated transitions](assets/preview-start.jpg) |
 | Hero with parallax scene, tilt cards, animated stats | 4-step intake form with animated transitions |
 
 **Live locally:** `http://localhost:5173`
