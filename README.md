@@ -1,6 +1,6 @@
 # Aurora Studio — Web Template
 
-[![CI](https://github.com/yehudalevy-collab/aurora-website-template/actions/workflows/ci.yml/badge.svg)](https://github.com/yehudalevy-collab/aurora-website-template/actions/workflows/ci.yml)
+[![CI](https://github.com/ymxlx/aurora-website-template/actions/workflows/ci.yml/badge.svg)](https://github.com/ymxlx/aurora-website-template/actions/workflows/ci.yml)
 
 A boutique agency website template built with warm editorial aesthetics, confident motion, and a multi-step client intake flow. Zero dependencies beyond Vite.
 
